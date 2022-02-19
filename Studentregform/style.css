@@ -1,0 +1,203 @@
+* {
+  padding: 0px;
+  margin: 10pxpx;
+}
+body {
+  background-image: url("vu.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading {
+  margin-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.name input{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+  width: 150px;
+}
+
+.fathername {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.fathername input{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+  
+}
+.emailnum {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.emailnum input{
+  width: 204px;
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+
+}
+.table{
+  
+  display: none;
+ 
+}
+
+  
+
+.datebirth {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.datebirth select{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+  
+}
+.gender {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.program {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.program select{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+}
+.session {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.session select{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+}
+.radio {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+  display: flex;  
+}
+
+
+.about{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.form{
+  padding: 5px;
+  border-radius: 50px;
+  background-color:white;
+  width: 45%;
+  height: 850px;
+  position: relative;
+  left: 370px;
+  
+}
+#submit{
+  margin-left: 240px;
+  padding: 5px;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: black ;
+}
+#Reset{
+  border-radius: 7px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: black;
+}
+#textabout{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+  resize:none;
+}
+.rollnum{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.rollnum input{
+  padding: 10px;
+  border-radius: 7px;
+  border-color:#606770;
+  background: #f5f6f7;
+}
+.tablerc {
+  margin-top: 100px;
+  height: 500px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+table {
+  overflow: auto;
+}
+
+tr {
+  display: flex;
+  overflow: auto;
+  column-gap: 91px;
+  margin-left: 30px;
+}
+th {
+  width: 100px;
+  background-color: green;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+}
+td {
+  width: 100px;
+  background-color: green;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+}
